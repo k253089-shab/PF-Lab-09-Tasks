@@ -5,11 +5,11 @@ float taxCalculation(float, float *);
 int main()
 {
     float grossIncome, netIncome;
-    printf("Enter gross income: ");
+    printf("Enter gross income(in ruppees): ");
     scanf("%f", &grossIncome);
     
-    printf("\nTax: %.2f", taxCalculation(grossIncome, &netIncome));
-    printf("\nNet Income: %.2f", netIncome);
+    printf("\nTax: Rs %.2f", taxCalculation(grossIncome, &netIncome));
+    printf("\nNet Income: Rs %.2f", netIncome);
 
     return 0;
 }
